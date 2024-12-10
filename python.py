@@ -61,6 +61,238 @@ print(10 ==10) # Questionando o programa se de é igual a 10. Como é um Bool te
 print(10 == 11) #False
 print(type(10 == 10)) # A classe de retorno será Bool.
 
+#------------------------------  Conversão de Tipos  -------------------------------------------
+# Conversão é o ato de converter um tipo em outro 
+# Esta parte abaixo será comentada para não travar no erro da tela do terminal
+"""
+print (1 + 1) # Quando for números Int ou Float ele irá somar.
+print ('a' + 'b') #Neste caso de strings, ele irá concatenar os argumentos.
+# Isto normalmente acontece em linguagens dinâmicas, ele sabe o que fazer com estes dois tipos.
+# Ele irá apenas concatenar strings com strings, exemplo:
+
+print (1 + 'a') #Ele relatará um erro no qual Int não se mistura com Str.
+
+# A partir do momento em que eu coloco um caractere em aspas (simples ou duplas) ele será uma string
+
+print ('1', type('1'))
+"""
+
+# Convertendo uma string para um número inteiro ou float
+print (int('1') + 1)
+print (float('10') + 10)
+print (bool('')) #No boolean temos apenas 2 valores possíveis, True ou False. Uma string vazia é considerado Falso
+print (str(11) + 'b') # Convertendo um Int para um Str
+
+#---------------------------------------   Variáveis   ---------------------------------------------------------
+
+# Inicie variáveis com letras minúsculas, podendo usar números e underline.
+
+nome_completo = "Nameless"  # O sinal de = ele é o operador de atribuição.
+soma_dois_mais_dois = 2 + 2
+print (nome_completo)
+print (soma_dois_mais_dois)
+
+nome = "Nameless"
+idade = 20
+maior_de_idade = idade >= 18
+
+print ("Nome:", nome, "Idade:", idade)
+print ("É maior de idade? ", maior_de_idade)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
