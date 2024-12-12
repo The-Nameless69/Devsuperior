@@ -99,6 +99,19 @@ maior_de_idade = idade >= 18
 print ("Nome:", nome, "Idade:", idade)
 print ("É maior de idade? ", maior_de_idade)
 
+#---------------------------   Introdução aos Operadores aritméticos  -------------------------------------------
+
+adicao = 10 + 10             #Soma
+subtracao = 10 - 5           #Subtrai
+multiplicacao = 5 * 5        #Multiplica
+divisao = 10 / 2             #Divide
+divisao_inteira = 10 // 2    #Divide por inteiro
+
+print ("Adição:", adicao)
+print ("Subtração:",subtracao)
+print ("Multiplicação:",multiplicacao)
+print ("Divisão com sobra:",divisao)
+print ("Divisão Inteira:",divisao_inteira)
 
 
 
