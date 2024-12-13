@@ -48,6 +48,33 @@
 
 # O Git push irá enviar para o repositório remoto, que fica no GitHub. Depois disto não tem mais volta.
 
+#--------------------------------------   Verificando Histórico de Versões   ----------------------------------------------
+
+# git log
+# git log --oneline
+
+#-------------------------------------   Git Checkout   -------------------------------------------------------------------
+
+# Cada commit possui um código de ratreio que é visto usando o comando git log.
+# O último commit modificado é referênciado pela palavara HEAD.
+# Usando o comando a seguir, você adiciona este commit para o topo, podendo depois apagar outros commitis a partir dele.
+
+# git checkout Adicione aqui o código do commit que você deseja por no topo
+
+# Os seus arquivos ele volta da versão na qual você escolheu, um exemplo: Se você fez este commit apenas quando a página Html
+# estava sem forma, usando este comando acima ele volta de quando era deste jeito.
+# Para voltar o branch para o Main novamente, faça o seguinte comando:
+
+# git checkout main
+
+# IMPORTANTE: O Git Checkout é usado para ver a versão anterior do prjeto e você verificar as mudanças que foram feitas
+# Não entre no git checkou e mude algo no seu código.
+# Se você fez alguma alteração, desfaça as alterações com os seguintes comandos:
+
+# git reset
+# git clean -df
+# git checkout -- .
+# git checkout main
 
 
 
